@@ -112,7 +112,7 @@ function autoCreateImg() {
         str = dom_pull.innerHTML;
         txt = json[i].txt;
         pic = json[i].pic;
-        console.log(pic);
+       
         //创建子盒子
         htmlStr = "<div class='box'>" +
             "<div class='pic'>" +
